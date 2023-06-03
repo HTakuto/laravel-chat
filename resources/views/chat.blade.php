@@ -8,6 +8,8 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 </head>
 <body>
-
+    @yield('contact')
+    @include('messages.side_bar')
+    @include('messages.main')
 </body>
 </html>
