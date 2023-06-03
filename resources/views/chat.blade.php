@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>LaravelChat</title>
+    <link rel="stylesheet" href="{{ asset('../css/app.css') }}">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
 </head>
 <body>
-    @yield('contact')
-    @include('messages.side_bar')
-    @include('messages.main')
+    <div class="wrapper">
+        <div class="side-bar">
+            @include('messages.side_bar')
+        </div>
+        <div class="chat">
+            @include('messages.main')
+        </div>
+    </div>
 </body>
 </html>

@@ -1,3 +1,8 @@
-<body>
-main
-</body>
+<div class="chat-header">
+</div>
+
+<div class="messages">
+</div>
+
+<div class="form">
+</div>

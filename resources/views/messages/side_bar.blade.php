@@ -1,3 +1,5 @@
-<body>
-side_bar
-</body>
+<div class="side-bar-header">
+</div>
+
+<div class="rooms">
+</div>
